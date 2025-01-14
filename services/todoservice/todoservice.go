@@ -1,8 +1,8 @@
 package todoservice
 
 import (
-	"encoding/json"
 	"github.com/gorilla/mux"
+	json "github.com/json-iterator/go"
 	"net/http"
 	"todoingo/models"
 	"todoingo/repositories/store/tododatastore"
